@@ -14,7 +14,7 @@
     file:
       state: directory
       path: "{{ elastic_home }}"
-      tags: elastic
+    tags: elastic
   - name: Extract Elasticsearch in the installation directory
     become: yes
     unarchive:
