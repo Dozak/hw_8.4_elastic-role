@@ -1,7 +1,7 @@
 ---
   - src: git@github.com:Dozak/hw_8.4_elastic-role.git
     scm: git
-    version: "1.0.3"
+    version: "v1.0.3"
     name: elastic-role
   - src: git@github.com:Dozak/hw_8.4_kibana-role.git
     scm: git
