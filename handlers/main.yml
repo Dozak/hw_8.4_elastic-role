@@ -1,2 +1,7 @@
 ---
 # handlers for roles Elactic
+- name: restart Elasticsearch
+  become: true
+  service:
+    name: elasticsearch
+    state: restarted
